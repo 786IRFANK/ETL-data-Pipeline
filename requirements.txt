@@ -1,0 +1,33 @@
+# Core Framework
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+structlog>=25.5.0
+
+# Celery & Task Queue
+celery[redis]>=5.3.6
+redis>=5.0.1
+flower>=2.0.1
+
+# Database
+psycopg2-binary>=2.9.9
+sqlalchemy>=2.0.25
+alembic>=1.13.0
+
+# GCP Services
+google-cloud-storage>=2.14.0
+google-auth>=2.27.0
+
+# Data Processing
+pandas>=2.1.4
+pyreadstat>=1.2.4
+beautifulsoup4>=4.12.3
+requests>=2.31.0
+
+# Utilities
+python-dotenv>=1.0.0
+
+# Version Management (for CI/CD)
+semantic-version>=2.10.0
+gitpython>=3.1.41
